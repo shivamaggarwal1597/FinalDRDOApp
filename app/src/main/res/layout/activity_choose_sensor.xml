@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.finaldrdoapp.ChooseSensorActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/iconland"
+    android:alpha="0.9"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:alpha="0.9"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/button_shape_rain"
+        android:layout_marginTop="200dp"
+        android:text="RAIN Sensor"
+
+        android:id="@+id/rain"/>
+
+    <Button
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:alpha="0.9"
+        android:textSize="20sp"
+
+        android:background="@drawable/button_shape_acc"
+        android:text="ACCELARATION sensor"
+        android:layout_marginTop="15dp"
+
+    android:id="@+id/acc"/>
+
+    <Button
+        android:id="@+id/moisture"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:alpha="0.9"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="400dp"
+        android:text="soil MOISTURE sensor" />
+</FrameLayout>
